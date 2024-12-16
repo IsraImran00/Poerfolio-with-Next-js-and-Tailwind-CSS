@@ -30,10 +30,10 @@ return ()=>{
 },[])
 
   return (
-    <div className={`fixed ${navBg ? 'bg-[#008000]' : 'fixed'} h-[12vh] z-[10] w-full transition-all duration-200`}>
+    <div className={`fixed ${navBg ? 'bg-[#008000]' : 'fixed'} h-[13vh] z-[10] w-full transition-all duration-200`}>
       <div className="flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto ">
        {/* LOGO */}
-        <Image src="/images/logo.png" alt="LOGO" width={170} height={170} className= 'ml-[1.5rem] sm:ml-0' />
+        <Image src="/images/logo.png" alt="LOGO" width={200} height={200} className= 'ml-[1.5rem] sm:ml-0 pt-14' />
 
       {/* Nav Links */}
       <div className="flex items-center space-x-10">
@@ -44,12 +44,6 @@ return ()=>{
         </Link>
       })}
       </div>
-      {/* Button */}
-      <div className="flex items-center space-x-4">
-        <button className="md:px-10 md:py-3 px-8 py-3 text-green-600 font-semibold sm:text-base text-sm bg-white
-        hover:bg-gray-300 transition-all duration-200 rounded-lg">
-          Hire Me
-        </button>
         {/* Burger */}
          <HiBars3BottomRight 
          onClick={openNav} 
@@ -57,8 +51,7 @@ return ()=>{
       </div>
       </div>
       </div> 
-    </div>
-  )
-}
+  );
+};
 
 export default Nav

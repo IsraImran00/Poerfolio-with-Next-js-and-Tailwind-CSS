@@ -17,4 +17,4 @@ const ResponsiveNav = () => {
   )
 }
 
-export default ResponsiveNav
+export default ResponsiveNav;

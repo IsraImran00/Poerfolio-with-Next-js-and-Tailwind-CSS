@@ -1,10 +1,4 @@
-import Html from '@/SkillsImages/Html.png';
-import Css from '@/SkillsImages/Css.png';
-import Javascript from '@/SkillsImages/Javascript.png';
-import Reactjs from '@/SkillsImages/Reactjs.png';
-import Typescript from '@/SkillsImages/Typescript.png';
-import Nodejs from '@/SkillsImages/Nodejs.png';
-import Nextjs1 from '@/SkillsImages/Nextjs1.png';
+
 
 export const BaseInfo = {
     name: "Isra Imran",
@@ -67,51 +61,50 @@ export const BaseInfo = {
     },
   ];
   
+ 
   export const skillsData = [
     {
       id: 1,
       title: "React",
-      image: Reactjs,
-      percent: "80%",
+      image: "/images/react.svg",
+      percent: "90%",
     },
     {
       id: 2,
       title: "CSS",
-      image: Css,
-      percent: "97%",
+      image: "/images/css.svg",
+      percent: "90%",
     },
     {
       id: 3,
       title: "JavaScript",
-      image: Javascript,
+      image: "/images/js.svg",
       percent: "77%",
     },
     {
       id: 4,
       title: "TypeScript",
-      image: Typescript,
-      percent: "87%",
+      image: "/images/ts.svg",
+      percent: "77%",
     },
     {
       id: 5,
       title: "HTML",
-      image: Html,
+      image: "/images/html.svg",
       percent: "97%",
     },
     {
       id: 6,
       title: "Node JS",
-      image: Nodejs,
-      percent: "87%",
+      image: "/images/node.svg",
+      percent: "77%",
     },
-
     {
       id: 7,
-      title: "Next JS",
-      image: Nextjs1,
-      percent: "67%",
+      title: "Next.Js",
+      image: "/images/next.svg",
+      percent: "65%",
     },
-    
   ];
   
   export const clientReviews = [
